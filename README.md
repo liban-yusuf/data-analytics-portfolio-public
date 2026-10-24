@@ -30,6 +30,16 @@ This collection shows my technical progression after the marketing-focused learn
 | Marketing analytics | [Marketing Analytics Portfolio](https://github.com/libana3012-pixel/Marketing-Analytics-Portfolio) |
 | Microsoft Fabric | [Bank analytics build blueprint](projects/fabric-bank-analytics/README.md) — planned, not deployed |
 
+## Focused technical mini-projects
+
+These short, runnable exercises complement the larger case studies and demonstrate specific analyst skills.
+
+| Mini-project | Skill | Evidence |
+| --- | --- | --- |
+| [SQL Window Functions & KPI Trends](projects/sql-window-kpis/README.md) | LAG, running totals, month-over-month KPIs | SQLite script and assertions |
+| [ETL Data Validation](projects/etl-data-validation/README.md) | Duplicates, invalid records, reconciliation | Python validation script |
+| [Fraud Threshold Evaluation](projects/fraud-threshold-evaluation/README.md) | Precision, recall, alert-volume trade-offs | Synthetic threshold comparison |
+
 ## Where to start
 | Study | Business question | Evidence |
 | --- | --- | --- |
