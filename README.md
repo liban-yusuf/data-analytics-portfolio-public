@@ -14,6 +14,8 @@ I'm Liban Yusuf, based in Oslo, with a bachelor's degree in Marketing and Sales 
 
 This collection shows my technical progression after the marketing-focused learning chapter. The example datasets are **synthetic**. The dates in a dataset and the thematic chapter dates do not represent historical upload dates, employment outcomes or invented certification claims.
 
+[**Portfolio reading guide — start here**](PORTFOLIO-GUIDE.md)
+
 ## Featured project — Financial Risk
 
 [**Bank Fraud Detection (SQL + Python)**](projects/bank-fraud/README.md): synthetic transaction risk scoring, chargeback proxy evaluation and automated tests. This is a reproducible learning exercise, not a production fraud system.
@@ -26,7 +28,7 @@ This collection shows my technical progression after the marketing-focused learn
 | SQL & business analysis | [Customer Sales Analysis](https://github.com/libana3012-pixel/Customer-Sales-Analysis), [Sales Revenue Analysis](https://github.com/libana3012-pixel/Sales-Revenue-Analysis) |
 | Python & data quality | [Customer cohorts](projects/customer-cohorts/README.md), [Data quality](projects/data-quality/README.md), [Sales verification](python/README.md) |
 | Marketing analytics | [Marketing Analytics Portfolio](https://github.com/libana3012-pixel/Marketing-Analytics-Portfolio) |
-| Microsoft Fabric | [Architecture plan](fabric/README.md) — planned, not deployed |
+| Microsoft Fabric | [Bank analytics build blueprint](projects/fabric-bank-analytics/README.md) — planned, not deployed |
 
 ## Where to start
 | Study | Business question | Evidence |
