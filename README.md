@@ -5,9 +5,9 @@
 [How the work was carried out, with tools and calculations](WORKFLOW.md)
 ### SQL · Python · Data Quality · Business Intelligence
 
-[![Portfolio checks](https://github.com/libana3012-pixel/data-analytics-portfolio-public/actions/workflows/verify.yml/badge.svg)](https://github.com/libana3012-pixel/data-analytics-portfolio-public/actions/workflows/verify.yml)
+[![Portfolio checks](https://github.com/liban-yusuf/data-analytics-portfolio-public/actions/workflows/verify.yml/badge.svg)](https://github.com/liban-yusuf/data-analytics-portfolio-public/actions/workflows/verify.yml)
 
-**Technical learning chapter: April–October 2026** · [Previous chapter: Marketing Analytics](https://github.com/libana3012-pixel/Marketing-Analytics-Portfolio)
+**Technical learning chapter: April–October 2026** · [Previous chapter: Marketing Analytics](https://github.com/liban-yusuf/Marketing-Analytics-Portfolio)
 
 ## About me
 I'm Liban Yusuf, based in Oslo, with a bachelor's degree in Marketing and Sales Management and experience with digital analytics and business reporting. My interest is in turning business questions into reliable numbers: defining the question, preparing data, checking the result and communicating findings clearly.
@@ -15,6 +15,14 @@ I'm Liban Yusuf, based in Oslo, with a bachelor's degree in Marketing and Sales 
 This collection shows my technical progression after the marketing-focused learning chapter. The example datasets are **synthetic**. The dates in a dataset and the thematic chapter dates do not represent historical upload dates, employment outcomes or invented certification claims.
 
 [**Portfolio reading guide — start here**](PORTFOLIO-GUIDE.md)
+
+## Portfolio organization
+
+**Featured standalone repositories:** [Customer Sales Analysis](https://github.com/liban-yusuf/Customer-Sales-Analysis) · [Sales Revenue Analysis](https://github.com/liban-yusuf/Sales-Revenue-Analysis) · [Marketing Analytics Portfolio](https://github.com/liban-yusuf/Marketing-Analytics-Portfolio)
+
+**Projects currently hosted inside this repository:** [Bank Fraud Detection](projects/bank-fraud/README.md) · [Fabric Bank Analytics (implementation source, not deployed)](projects/fabric-bank-analytics/README.md) · [Analytics mini-projects](PORTFOLIO-GUIDE.md).
+
+**Recommended next repository split (not yet created):** `bank-fraud-analysis`, `microsoft-fabric-bank-analytics`, `analytics-mini-projects`. Existing files stay here until the new repositories have been created and their contents verified. No history or files have been deleted.
 
 ## Featured project — Financial Risk
 
@@ -25,9 +33,9 @@ This collection shows my technical progression after the marketing-focused learn
 | Category | Projects |
 | --- | --- |
 | Financial risk | [Bank Fraud Detection](projects/bank-fraud/README.md) |
-| SQL & business analysis | [Customer Sales Analysis](https://github.com/libana3012-pixel/Customer-Sales-Analysis), [Sales Revenue Analysis](https://github.com/libana3012-pixel/Sales-Revenue-Analysis) |
+| SQL & business analysis | [Customer Sales Analysis](https://github.com/liban-yusuf/Customer-Sales-Analysis), [Sales Revenue Analysis](https://github.com/liban-yusuf/Sales-Revenue-Analysis) |
 | Python & data quality | [Customer cohorts](projects/customer-cohorts/README.md), [Data quality](projects/data-quality/README.md), [Sales verification](python/README.md) |
-| Marketing analytics | [Marketing Analytics Portfolio](https://github.com/libana3012-pixel/Marketing-Analytics-Portfolio) |
+| Marketing analytics | [Marketing Analytics Portfolio](https://github.com/liban-yusuf/Marketing-Analytics-Portfolio) |
 | Microsoft Fabric | [Bank analytics build blueprint](projects/fabric-bank-analytics/README.md) — planned, not deployed |
 
 ## Focused technical mini-projects
@@ -43,8 +51,8 @@ These short, runnable exercises complement the larger case studies and demonstra
 ## Where to start
 | Study | Business question | Evidence |
 | --- | --- | --- |
-| [Sales Revenue Analysis](https://github.com/libana3012-pixel/Sales-Revenue-Analysis) | Why did sales value change? | SQL, modelling, KPIs and automated checks |
-| [Customer Sales Analysis](https://github.com/libana3012-pixel/Customer-Sales-Analysis) | Who purchased, returned or never ordered? | SQL, segmentation and automated checks |
+| [Sales Revenue Analysis](https://github.com/liban-yusuf/Sales-Revenue-Analysis) | Why did sales value change? | SQL, modelling, KPIs and automated checks |
+| [Customer Sales Analysis](https://github.com/liban-yusuf/Customer-Sales-Analysis) | Who purchased, returned or never ordered? | SQL, segmentation and automated checks |
 | [Customer cohorts](projects/customer-cohorts/README.md) | What share of new customers return next month? | Python, transparent follow-up windows |
 | [Data quality](projects/data-quality/README.md) | Can problematic source rows be caught before reporting? | Python validation, tests, error fixtures |
 | [Sales cross-check](python/README.md) | Do two calculation methods agree? | Independent Python check on synthetic transactions |
@@ -74,7 +82,7 @@ Business question → relational data / SQL → Python checks
 | Data quality | Duplicate detection, reference/value checks, CI | Automated workflow included |
 | Power BI / DAX / Power Query | [Implementation plan](powerbi/README.md) | Draft design; no completed PBIX claimed |
 | Microsoft Fabric | [Architecture plan](fabric/README.md) | Proposed future build; not deployed |
-| Earlier business background | GA4, GTM, SEO, Excel | [Marketing Analytics chapter](https://github.com/libana3012-pixel/Marketing-Analytics-Portfolio) |
+| Earlier business background | GA4, GTM, SEO, Excel | [Marketing Analytics chapter](https://github.com/liban-yusuf/Marketing-Analytics-Portfolio) |
 
 ## Reproduce the Python exercises
 Python 3 is sufficient; no paid service or additional package is required.
