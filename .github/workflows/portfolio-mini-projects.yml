@@ -1,0 +1,29 @@
+name: Analytics mini-project checks
+on:
+  push:
+    paths:
+      - 'projects/sql-window-kpis/**'
+      - 'projects/etl-data-validation/**'
+      - 'projects/fraud-threshold-evaluation/**'
+      - 'projects/bank-fraud/**'
+      - 'projects/fabric-bank-analytics/**'
+      - '.github/workflows/portfolio-mini-projects.yml'
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile Python sources
+        run: python -m compileall -q projects
+      - name: Check KPI trends
+        run: python projects/sql-window-kpis/analyze.py
+      - name: Check ETL validation
+        run: python projects/etl-data-validation/analyze.py
+      - name: Check fraud thresholds
+        run: python projects/fraud-threshold-evaluation/analyze.py
+      - name: Bank fraud unit tests
+        run: python -m unittest discover -s projects/bank-fraud -p 'test_*.py' -v
