@@ -45,3 +45,12 @@ Lakehouse SQL analytics endpoint -> Power BI semantic model -> report
 
 ## Scope and caveats
 No real financial data, credentials or personally identifying information should be committed. The chargeback field is a proxy outcome, not proof of fraud. This repository currently contains a **design**, not a deployed Fabric workspace, pipeline, Lakehouse or Power BI report.
+
+## Implementation assets added
+
+- [PySpark validation and Delta-table transformation](notebooks/curate_transactions.py) — intended for an attached Fabric notebook
+- [Read-only reporting SQL](sql/reporting.sql) — for the Lakehouse SQL analytics endpoint
+- [Power BI DAX measures and report specification](powerbi/MEASURES.md)
+- [Data Factory pipeline build instructions](pipeline/BUILD-STEPS.md)
+
+**Current status:** code and build instructions published to GitHub. A Fabric workspace, successful pipeline execution, Lakehouse table and interactive Power BI report have **not** been verified or deployed. The repository's GitHub Actions workflow checks local Python exercises, not the Fabric runtime.
