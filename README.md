@@ -20,23 +20,23 @@ This collection shows my technical progression after the marketing-focused learn
 
 **Featured standalone repositories:** [Customer Sales Analysis](https://github.com/liban-yusuf/Customer-Sales-Analysis) · [Sales Revenue Analysis](https://github.com/liban-yusuf/Sales-Revenue-Analysis) · [Marketing Analytics Portfolio](https://github.com/liban-yusuf/Marketing-Analytics-Portfolio)
 
-**Projects currently hosted inside this repository:** [Bank Fraud Detection](projects/bank-fraud/README.md) · [Fabric Bank Analytics (implementation source, not deployed)](projects/fabric-bank-analytics/README.md) · [Analytics mini-projects](PORTFOLIO-GUIDE.md).
+**Projects currently hosted inside this repository:** [Bank Fraud Detection](https://github.com/liban-yusuf/bank-fraud-analysis) · [Fabric Bank Analytics (implementation source, not deployed)](https://github.com/liban-yusuf/microsoft-fabric-bank-analytics) · [Analytics mini-projects](PORTFOLIO-GUIDE.md).
 
-**Recommended next repository split (not yet created):** `bank-fraud-analysis`, `microsoft-fabric-bank-analytics`, `analytics-mini-projects`. Existing files stay here until the new repositories have been created and their contents verified. No history or files have been deleted.
+**Separate repositories:** [Bank Fraud Analysis](https://github.com/liban-yusuf/bank-fraud-analysis), [Microsoft Fabric Bank Analytics](https://github.com/liban-yusuf/microsoft-fabric-bank-analytics), and [Analytics Mini Projects](https://github.com/liban-yusuf/analytics-mini-projects). Original project files remain in this repository as an archive; no files have been deleted.
 
 ## Featured project — Financial Risk
 
-[**Bank Fraud Detection (SQL + Python)**](projects/bank-fraud/README.md): synthetic transaction risk scoring, chargeback proxy evaluation and automated tests. This is a reproducible learning exercise, not a production fraud system.
+[**Bank Fraud Detection (SQL + Python)**](https://github.com/liban-yusuf/bank-fraud-analysis): synthetic transaction risk scoring, chargeback proxy evaluation and automated tests. This is a reproducible learning exercise, not a production fraud system.
 
 ## Browse by skill
 
 | Category | Projects |
 | --- | --- |
-| Financial risk | [Bank Fraud Detection](projects/bank-fraud/README.md) |
+| Financial risk | [Bank Fraud Detection](https://github.com/liban-yusuf/bank-fraud-analysis) |
 | SQL & business analysis | [Customer Sales Analysis](https://github.com/liban-yusuf/Customer-Sales-Analysis), [Sales Revenue Analysis](https://github.com/liban-yusuf/Sales-Revenue-Analysis) |
 | Python & data quality | [Customer cohorts](projects/customer-cohorts/README.md), [Data quality](projects/data-quality/README.md), [Sales verification](python/README.md) |
 | Marketing analytics | [Marketing Analytics Portfolio](https://github.com/liban-yusuf/Marketing-Analytics-Portfolio) |
-| Microsoft Fabric | [Bank analytics build blueprint](projects/fabric-bank-analytics/README.md) — planned, not deployed |
+| Microsoft Fabric | [Bank analytics build blueprint](https://github.com/liban-yusuf/microsoft-fabric-bank-analytics) — planned, not deployed |
 
 ## Focused technical mini-projects
 
@@ -44,9 +44,9 @@ These short, runnable exercises complement the larger case studies and demonstra
 
 | Mini-project | Skill | Evidence |
 | --- | --- | --- |
-| [SQL Window Functions & KPI Trends](projects/sql-window-kpis/README.md) | LAG, running totals, month-over-month KPIs | SQLite script and assertions |
-| [ETL Data Validation](projects/etl-data-validation/README.md) | Duplicates, invalid records, reconciliation | Python validation script |
-| [Fraud Threshold Evaluation](projects/fraud-threshold-evaluation/README.md) | Precision, recall, alert-volume trade-offs | Synthetic threshold comparison |
+| [SQL Window Functions & KPI Trends](https://github.com/liban-yusuf/analytics-mini-projects/tree/main/sql-window-kpis) | LAG, running totals, month-over-month KPIs | SQLite script and assertions |
+| [ETL Data Validation](https://github.com/liban-yusuf/analytics-mini-projects/tree/main/etl-data-validation) | Duplicates, invalid records, reconciliation | Python validation script |
+| [Fraud Threshold Evaluation](https://github.com/liban-yusuf/analytics-mini-projects/tree/main/fraud-threshold-evaluation) | Precision, recall, alert-volume trade-offs | Synthetic threshold comparison |
 
 ## Where to start
 | Study | Business question | Evidence |
